@@ -7,25 +7,36 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="form-container">
-        <div class="input-container">
-            <label>KM Che si vuole pecorrere</label>
+    <header>
+        <h1>Prendi Il volo con BooleanTrain</h1>
+        <h2>Scopri i collegamenti diretti con le grandi città</h2>
+         <div class="form-container">
+        <div class="container-input-text">
+            <div class="input-container">
+            <label>KM Che si vuole pecorrere</label> 
             <input id="user-km" type="text" placeholder="KM">
         </div>
 
         <div class="input-container">
-            <label>Età passeggero</label>
+            <label>Età passeggero</label> 
             <input id="user-age" type="text" placeholder="Età">
         </div>
-
-        <button id="generate-button">Crea Biglietto</button>
-        <button id="clear-button">Annulla</button>
+ 
+        </div>
+       <div class="container-button">
+        <button id="generate-button" class="btn">Crea Biglietto</button>
+        <button id="clear-button" class="btn">Annulla</button>
+       </div>
+        
     </div>
+    </header>
+   
 
     <!-- Contenitore risultato generazione password -->
-    <div class="user-message">
-
+    <div class="box-tiket">
+        <div class="user-message"></div>
     </div>
+    
 
     
     <script type="text/javascript" src="js/script.js"></script>
