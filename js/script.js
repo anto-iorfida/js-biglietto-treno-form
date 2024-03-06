@@ -42,6 +42,18 @@ generateTiket.addEventListener('click', function () {
 
 })
 
+const clearButton = document.querySelector('#clear-button');
+clearButton.addEventListener('click', function() {
+    const userKm = document.querySelector('#user-km').value = ' ';
+    console.log(userKm)
+    const userAge = document.querySelector('#user-age').value = ' ';
+    console.log(userAge)
+
+    const userMessage = document.querySelector('.user-message');
+    userMessage.innerHTML = '';
+    
+});
+
 
 
 
