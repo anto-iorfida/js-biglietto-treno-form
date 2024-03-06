@@ -8,7 +8,7 @@ generateTiket.addEventListener('click', function () {
     console.log(userAge)
 
     
-    let priceTicket = 0.20 * userKm;
+    let priceTicket = 0.21 * userKm;
     console.log(priceTicket);
 
     let discount = 0; 
@@ -38,7 +38,7 @@ generateTiket.addEventListener('click', function () {
     
 
     let userMessage = document.querySelector('.user-message');
-    userMessage.innerHTML =`Il costo del biglietto è di ${priceFinalRounded}€ ${specialMessage}`;
+    userMessage.innerHTML =`${priceFinalRounded}€ ${specialMessage}`;
 
 })
 
